@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ClassLibrary.Enum
 {
-    public enum Rol
+    public enum Winaar
     {
-        gebruiker,
-        schijdsrechter
+        thuisspelend,
+        uitspelend
     }
 }
