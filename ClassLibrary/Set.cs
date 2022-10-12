@@ -6,10 +6,26 @@ namespace ClassLibrary
 {
     class Set
     {
-        int ID { get; }
-        Wedstrijd WedstrijdID { get; }
-        int Scoreteamthuis { get; set; }
-        int Scoreteamuit { get; set; }
-        Winaar Winaar { get; set; }
+        private int ID { get; }
+        private Wedstrijd WedstrijdID { get; }
+        private int Aantalset { get; }
+        private int Scoreteamthuis { get; set; }
+        private int Scoreteamuit { get; set; }
+        private Winaar Winaar { get; set; }
+
+
+        public Set(Wedstrijd WedstrijID, int aantalset, int Scoreteamthuis, int Scoreteamuit, Winaar Winaar)
+        {
+
+            this.WedstrijdID = WedstrijID;
+            this.Aantalset = aantalset;
+            this.Scoreteamthuis = Scoreteamthuis;
+            this.Scoreteamuit = Scoreteamuit;
+            this.Winaar = Winaar;
+
+
+        }
     }
+
+
 }
