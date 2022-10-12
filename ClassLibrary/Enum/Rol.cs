@@ -7,6 +7,6 @@ namespace ClassLibrary.Enum
     public enum Rol
     {
         gebruiker,
-        schijdsrechter
+        scheidsrechter
     }
 }
