@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Core;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassLibrary
+namespace Core
 {
     class Competitie
     {
@@ -22,6 +23,16 @@ namespace ClassLibrary
         {
             get { return _wedstrijden; }
             set { _wedstrijden = value; }
+        }
+        public Competitie(string Naam, List<Team> team, List<Wedstrijd> Wedstijden)
+        {
+
+            this.Naam = Naam;
+            this.Teams = team;
+            this.Wedstrijden = Wedstijden;
+            
+
+
         }
     }
 }

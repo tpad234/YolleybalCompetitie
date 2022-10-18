@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Classen
+namespace Core
 {
     class SpelerColection
     {
+
     }
 }

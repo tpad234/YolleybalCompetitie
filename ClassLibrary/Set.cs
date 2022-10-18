@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ClassLibrary.Enum;
-namespace ClassLibrary
+using Core.Enum;
+namespace Core
 {
     class Set
     {
         private int ID { get; }
         private Wedstrijd WedstrijdID { get; }
         private int Aantalset { get; }
-        private int Scoreteamthuis { get; set; }
-        private int Scoreteamuit { get; set; }
-        private Winaar Winaar { get; set; }
+        public int Scoreteamthuis { get; private set; }
+        public int Scoreteamuit { get; private set; }
+        private Winaar Winaar { get;  }
 
 
-        public Set(Wedstrijd WedstrijID, int aantalset, int Scoreteamthuis, int Scoreteamuit, Winaar Winaar)
+        public Set(int ID, Wedstrijd WedstrijID, int aantalset, int Scoreteamthuis, int Scoreteamuit, Winaar Winaar)
         {
 
             this.WedstrijdID = WedstrijID;

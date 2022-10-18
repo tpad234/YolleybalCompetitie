@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassLibrary.Enum
+namespace Core.Enum
 {
     public enum Winaar
     {

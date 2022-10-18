@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassLibrary
+namespace Core
 {
     class Wedstrijd
     {

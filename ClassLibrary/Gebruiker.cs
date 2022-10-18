@@ -1,6 +1,6 @@
 ﻿using System;
-using ClassLibrary.Enum;
-namespace ClassLibrary
+using Core.Enum;
+namespace Core
 {
     public class Gebruiker
     {
@@ -9,5 +9,16 @@ namespace ClassLibrary
         string Wachtwoord { get; }
         Rol Rol { get; }
 
+
+        public Gebruiker(string Naam, String Email, int aantalset, string wachtwoord, Rol Rol)
+        {
+
+            this.Naam = Naam;
+            this.Email = Email;
+            this.Wachtwoord = wachtwoord;
+            this.Rol = Rol;
+
+
+        }
     }
 }

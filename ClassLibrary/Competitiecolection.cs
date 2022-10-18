@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Core.Enum;
 
-namespace Classen
+namespace Core
 {
     class Competitiecolection
     {

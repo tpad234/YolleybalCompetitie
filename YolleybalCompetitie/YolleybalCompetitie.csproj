@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary\Classen.csproj" />
+    <ProjectReference Include="..\ClassLibrary\Core.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
     <ProjectReference Include="..\UnitTestBisnuss\UnitTestBisnuss.csproj" />
   </ItemGroup>
 
