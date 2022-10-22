@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using YolleybalCompetitie.Models;
+using Data;
+using System.Data;
 
 namespace YolleybalCompetitie.Controllers
 {
@@ -20,6 +22,7 @@ namespace YolleybalCompetitie.Controllers
 
         public IActionResult Index()
         {
+           DataTable test = CompetitieDal.GetSpelers();
             return View();
         }
 

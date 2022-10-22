@@ -25,5 +25,17 @@ namespace Core
             get { return _sets; }
             set { _sets = value; }
         }
+
+        public Wedstrijd(Team Teamthuis, Team Teamuit, string Locatie, List<Team> Teams, List<Set> Sets)
+        {
+
+            this.Teamthuis = Teamthuis;
+            this.Teamuit = Teamuit;
+            this.Locatie = Locatie;
+            this.Teams = Teams;
+            this.Sets = Sets;
+
+
+        }
     }
 }

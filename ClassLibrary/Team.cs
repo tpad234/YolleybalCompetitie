@@ -15,5 +15,14 @@ namespace Core
             get { return _spelers; }
             set { _spelers = value; }
         }
+
+        public Team(string Naam, List<Speler> spelers)
+        {
+
+            this.Naam = Naam;
+            this.Spelers = spelers;
+
+
+        }
     }
 }

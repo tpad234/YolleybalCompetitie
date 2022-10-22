@@ -7,7 +7,7 @@ namespace Core
 {
     class Competitie
     {
-        string Naam { get; }
+       public string Naam { get; }
 
         private List<Team> _teams = new List<Team>();
 
@@ -24,12 +24,12 @@ namespace Core
             get { return _wedstrijden; }
             set { _wedstrijden = value; }
         }
-        public Competitie(string Naam, List<Team> team, List<Wedstrijd> Wedstijden)
+        public Competitie(string naam, List<Team> team, List<Wedstrijd> wedstijden)
         {
 
-            this.Naam = Naam;
-            this.Teams = team;
-            this.Wedstrijden = Wedstijden;
+            Naam = naam;
+            Teams = team;
+            Wedstrijden = wedstijden;
             
 
 
